@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(to right, rgb(0, 60, 0), rgb(169,236,163));
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+}
+
+#quiz {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    Align-items: center;
+}
+#quiz h1{
+    font-weight: : 600;
+    font-size: 4rem;
+}
