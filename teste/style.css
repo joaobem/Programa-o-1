@@ -11,7 +11,30 @@ body{
     flex-direction: column;
     Align-items: center;
 }
+
 #quiz h1{
-    font-weight: : 600;
+    font-weight: 600;
     font-size: 4rem;
+}
+
+.quetion {
+    background-color: snow;
+    color: #000;
+    height: 400px;
+    width: 70%;
+    font-size: 2.5rem;
+}
+
+ul.answers {
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.answers li {
+    display: flex;
+    background-color: #89c454;
+    margin: 20px;
+    width: 40%;;
+
 }
