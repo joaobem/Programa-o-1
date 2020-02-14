@@ -1,3 +1,4 @@
+
 body{
     background: linear-gradient(to right, rgb(0, 60, 0), rgb(169,236,163));
     color: #fff;
@@ -17,7 +18,7 @@ body{
     font-size: 4rem;
 }
 
-.quetion {
+.question {
     background-color: snow;
     color: #000;
     height: 400px;
@@ -35,6 +36,12 @@ ul.answers {
     display: flex;
     background-color: #89c454;
     margin: 20px;
-    width: 40%;;
+    width: 40%;
+}
 
+.answers .number {
+    background-color: darkgreen;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
