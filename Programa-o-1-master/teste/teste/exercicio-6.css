@@ -1,0 +1,33 @@
+  table {
+    font: arial;
+    border-collapse: collapse;
+    width: 600px;
+  }
+  td{
+    border: 0px;
+    text-align: left;
+    font-size: 12px
+  }
+  th{
+      background-color: #78b200;
+      width: 600px;
+      text-align: left;
+      font: arial;
+      font-size: 12px;
+      color: white;
+      
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  h1{
+    color: #0D5188;
+    font-size: 12px;
+  }
+  .posiçao{
+      width: 5%;
+  }
+  .habitantes{
+      width:  15%;;
+  }

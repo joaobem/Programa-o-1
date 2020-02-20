@@ -1,0 +1,55 @@
+
+body{
+    background: linear-gradient(to right, rgb(7, 50, 61), rgb(68, 125, 151));
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh; 
+}
+
+#quiz {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    Align-items: center;
+}
+
+#quiz h1{
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.question {
+    background-color: rgb(191, 199, 202);
+    color: #000;
+    height: 400px;
+    width: 70%;
+    font-size: 2.5rem;
+}
+
+ul.answers {
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.answers li {
+    display: flex;
+    background-color: rgb(68, 125, 151);
+    margin: 20px;
+    width: 40%;
+    border-radius: 8px
+}
+
+.answers .number {
+    background-color: rgb(7, 50, 61);
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 10px;
+    flex-basis: 30px;
+}
+
+.answers .text{
+    align-self: center;
+    flex: 1;
+}
