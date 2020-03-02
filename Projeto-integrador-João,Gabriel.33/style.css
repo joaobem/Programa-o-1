@@ -1,0 +1,207 @@
+.links{
+    background-color:rgb(33, 111, 175);
+    color:white;
+    padding:15px;
+    height: 80px;
+    text-align: left;
+    font-family: "oswald";
+}
+.home{
+    background-color:rgb(35, 62, 83);
+    color:white;
+    padding:15px;
+    height: 1600px;
+    text-align: left;
+}
+
+a:link, a:visited {
+    background-color: rgb(33, 111, 175);
+    color: white;
+    padding: 22px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
+  a:hover, a:active {
+    background-color: rgb(62, 67, 71);
+  }
+
+
+  html, body {
+    width: 98%;
+    height: 95%;
+    background: #000;
+    font-size: 16px;
+  }
+  
+  #xiaomi {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    Align-items: flex-end;
+    width: 600px;
+  }
+  #texto_xiaomi {
+    Align-items: flex-start;
+    flex-direction: column;
+    width: 550px; 
+  }
+  .mi10{
+    font-size: 50px;
+  }
+
+  .celulares{
+    display: flex;
+    justify-content: space-around;
+  }  
+  .a{
+    background-color: gray;
+    width: 400px;
+    height: 500px;
+    border-radius: 2rem;
+  }
+
+  .name{
+    background-color: rgb(33, 111, 175);
+    width: 400px;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "oswald";
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+  }
+
+  .imagem{
+    width: 400px;
+    height: 400px;
+  }
+  .descriçao{
+    background-color: rgb(33, 111, 175);
+    width: 400px;
+    height: 100px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "oswald";
+    border-radius: 2rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+  }
+
+  /**produtos**/
+  .produtos{
+    background-color:rgb(35, 62, 83);
+    color:white;
+    padding:15px;
+    height: 1600px;
+    text-align: left;
+  }
+
+
+  /**carrosel**/
+
+  .carousel {
+    width: 100%;
+    height: 30%;
+    transform: translateZ(0);
+  }
+  
+  .carousel input {
+    position: absolute;
+    left: -10000px;
+  }
+  
+  .carousel__stage {
+    overflow: hidden;
+    font-size: 0;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    transition: text-indent 600ms;
+    position: relative;
+  }
+  
+  .carousel__item {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-indent: 0;
+    opacity: 0.6;
+    text-align: center;
+  }
+  
+  .carousel__image {
+    height: 100%;
+    width: auto;
+    display: inline-block;
+  }
+  
+  .carousel__next,
+  .carousel__prev {
+    display: none;
+    position: absolute;
+    top: 50%;
+    color: #FFF;
+    background: rgba(255, 255, 255, 0.15);
+    z-index: 1;
+    font-size: 1rem;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .carousel__prev {
+    left: 0;
+  }
+  
+  .carousel__prev:after {
+    content: ' << ';
+    display: inline-block;
+  }
+  
+  .carousel__next {
+    right: 0;
+  }
+  
+  .carousel__next:after {
+    content: ' >> ';
+    display: inline-block;
+  }
+  
+  #carousel1:checked ~ .carousel__stage .carousel__item:nth-child(1),
+  #carousel2:checked ~ .carousel__stage .carousel__item:nth-child(2), 
+  #carousel3:checked ~ .carousel__stage .carousel__item:nth-child(3), 
+  #carousel4:checked ~ .carousel__stage .carousel__item:nth-child(4) {
+    opacity: 1;
+  }
+  
+  #carousel1:checked ~ .carousel__stage {
+    text-indent: 0;
+  }
+  
+  #carousel2:checked ~ .carousel__stage {
+    text-indent: -100%;
+  }
+  
+  #carousel3:checked ~ .carousel__stage {
+    text-indent: -200%;
+  }
+  
+  #carousel4:checked ~ .carousel__stage {
+    text-indent: -300%;
+  }
+  
+  #carousel1:checked ~ .carousel__stage .carousel__item:nth-child(1) .carousel__prev,
+  #carousel1:checked ~ .carousel__stage .carousel__item:nth-child(1) .carousel__next,
+  #carousel2:checked ~ .carousel__stage .carousel__item:nth-child(2) .carousel__prev,
+  #carousel2:checked ~ .carousel__stage .carousel__item:nth-child(2) .carousel__next,
+  #carousel3:checked ~ .carousel__stage .carousel__item:nth-child(3) .carousel__prev,
+  #carousel3:checked ~ .carousel__stage .carousel__item:nth-child(3) .carousel__next,
+  #carousel4:checked ~ .carousel__stage .carousel__item:nth-child(4) .carousel__prev,
+  #carousel4:checked ~ .carousel__stage .carousel__item:nth-child(4) .carousel__next {
+    display: block;
+  }
+
+  /**terminio do carrosel**/
+
